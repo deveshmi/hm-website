@@ -9,17 +9,17 @@ const translations = {
     "nav.visit": "Visit",
 
     // Hero
-    "hero.title": "Dargah Huzoor Maharaj",
+    "hero.title": "Dargah<br>Huzoor Maharaj",
     "hero.subtitle": "Hazrat Maulana Fazl Ahmed Khan Sahib",
-    "hero.desc": "Revered Sufi Saint of the Naqshbandiyya Mujaddidiyya Order (1838–1907)<br>Peer-o-Murshid of Param Sant Mahatma Shri Ram Chandra Ji Maharaj",
+    "hero.desc": "1838–1907<br><br>Revered Sadguru of<br>Param Sant Mahatma Shri Ram Chandra Ji Maharaj (Lalaji Maharaj)<br>&amp; Param Sant Mahatma Shri Raghubar Dayal Ji Maharaj (Chachaji Maharaj)",
     "hero.cta": "Discover His Legacy",
 
     // About
     "about.label": "The Saint",
     "about.title": "Huzoor Maharaj",
     "about.p1": "<strong>Hazrat Maulana Fazl Ahmed Khan Sahib Kuddusuruh Naqshbandia</strong>, reverently known as <strong>Huzoor Maharaj</strong>, was born in 1838 in the village of Raipur Khas, Tahsil Kayamganj, District Fatehgarh, Uttar Pradesh. He passed from this world on 30 November 1907.",
-    "about.p2": "Huzoor Maharaj held the sixth position in spiritual succession from Hazrat Mirza Jaan-i-Jaanan within the Naqshbandi Order. His father, Shaikh Gulam Hussain, was himself a master in the Naqshbandi order under Maulana Waliuddin of Kashmir. His mother was also initiated into Naqshbandi Sufism — he was born into a family steeped in the fragrance of divine remembrance.",
-    "about.p3": "By vocation, Huzoor Maharaj served as a madarsa teacher attached to a mosque, living a life of profound simplicity and asceticism. He refused offerings and would not allow disciples to touch his feet. Instead, he served those who came to him, attending to their needs with his own hands. He deliberately took loans despite having funds, explaining that this practice prevented pride while cultivating gratitude toward others.",
+    "about.p2": "Huzoor Maharaj received his spiritual initiation from his guru, <strong>Hazrat Ahmed Ali Khan Sahab</strong>. His father, Shaikh Gulam Hussain, was himself a master in the Naqshbandi order under Maulana Waliuddin of Kashmir, and his mother was also initiated into Naqshbandi Sufism — he was born into a family steeped in the fragrance of divine remembrance.",
+    "about.p3": "By vocation, Huzoor Maharaj served as a madarsa teacher attached to a mosque, living a life of profound simplicity and asceticism. He refused offerings and would not allow disciples to touch his feet. Instead, he served those who came to him, attending to their needs with his own hands.",
     "about.p4": "He taught that <em>\"religions are many but their essence is one — to gain spirituality.\"</em> For Huzoor Maharaj, this was not a philosophical position but lived reality. He saw no barrier between faiths because he had arrived at the source from which all faiths spring. He spent extensive time in meditation and would quietly depart from any gathering where others criticized any religion.",
     "about.p5": "Seekers of all backgrounds came to him naturally, and he shared the Naqshbandiyya spiritual practices with them just as naturally — requiring nothing of anyone except sincerity. Among his disciples was <strong>Mahatma Ram Chandra Ji (Shri Lalaji Maharaj)</strong>, whom he recognized as the one fit to carry the transmission forward, and to whom he entrusted his complete spiritual legacy.",
 
@@ -53,6 +53,7 @@ const translations = {
     "lalaji.p1": "<strong>Param Sant Mahatma Shri Ram Chandra Ji Maharaj</strong>, lovingly known as <strong>Lalaji Maharaj</strong> (2 February 1873 – 14 August 1931), was born in Fatehgarh, Uttar Pradesh. A Hindu by birth, he was drawn to Huzoor Maharaj by the irresistible pull of spiritual destiny — and Huzoor Maharaj recognized in him the capacity to carry forward the entire spiritual legacy of the Naqshbandiyya silsila.",
     "lalaji.p2": "For one who had realized the highest truth — the one reality from which all religions draw their fragrance — the question of a disciple's outward faith simply did not arise. Huzoor Maharaj recognized in Lalaji a vessel fit to carry the divine current forward, and transmitted his complete spiritual knowledge and authority to him. What the world saw as an extraordinary act of interfaith generosity was, for Huzoor Maharaj, simply the natural consequence of having arrived at that station where all distinctions of creed dissolve in the ocean of the One.",
     "lalaji.p3": "After completing his spiritual training, Lalaji Maharaj became a realized master in his own right. He refined and simplified the ancient Naqshbandi meditation practices, centering them on the heart and making them accessible to householders living ordinary lives in the world. Through his disciples, several spiritual movements arose that continue to nourish seekers across the globe today.",
+    "lalaji.p3b": "Lalaji Maharaj's younger brother, reverently known as <strong>Chachaji Maharaj</strong>, was also a spiritually gifted soul who walked the same path. Together, the two brothers carried the light of Huzoor Maharaj's grace into the world — Lalaji as the master who transmitted the spiritual current to future generations, and Chachaji as a beloved presence who supported and sustained the spiritual work.",
     "lalaji.p4": "At their core, all of these traditions carry forward the same essence inherited from Lalaji — and through him, from Huzoor Maharaj: meditation on the heart as the seat of the divine, the direct transmission of spiritual energy from master to seeker, a simplicity of method that requires no renunciation of worldly life, and the unwavering conviction that the highest spiritual realization is the birthright of every sincere soul — irrespective of religion, caste, or station in life.",
     "lalaji.dates.title": "Key Dates",
     "lalaji.dates.birth": "BIRTH",
@@ -87,9 +88,9 @@ const translations = {
     // Footer
     "footer.title": "Dargah Huzoor Maharaj",
     "footer.subtitle": "Hazrat Maulana Fazl Ahmed Khan Saheb Raipuri",
-    "footer.quote": "\"Verily, in the remembrance of Allah do hearts find peace.\"",
-    "footer.cite": "— Quran, Surah Ar-Ra'd (13:28)",
-    "footer.bottom": "In the service of preserving the sacred legacy of the Naqshbandiyya Mujaddidiyya Silsila"
+    "footer.quote": "\"Religions are many but their essence is one — to gain spirituality.\"",
+    "footer.cite": "— Huzoor Maharaj",
+    "footer.bottom": "In the service of preserving the sacred spiritual legacy of Huzoor Maharaj"
   },
 
   hi: {
@@ -102,17 +103,17 @@ const translations = {
     "nav.visit": "दर्शन",
 
     // Hero
-    "hero.title": "दरगाह हुज़ूर महाराज",
+    "hero.title": "दरगाह<br>हुज़ूर महाराज",
     "hero.subtitle": "हज़रत मौलाना फ़ज़्ल अहमद ख़ान साहिब",
-    "hero.desc": "नक़्शबंदिय्या मुजद्दिदिय्या सिलसिले के महान सूफ़ी संत (1838–1907)<br>परम संत महात्मा श्री राम चन्द्र जी महाराज के पीर-ओ-मुर्शिद",
+    "hero.desc": "1838–1907<br><br>पूज्य सद्गुरु<br>परम संत महात्मा श्री राम चन्द्र जी महाराज (लालाजी महाराज)<br>एवं परम संत महात्मा श्री रघुबर दयाल जी महाराज (चाचाजी महाराज) के",
     "hero.cta": "उनकी विरासत जानें",
 
     // About
     "about.label": "संत",
     "about.title": "हुज़ूर महाराज",
     "about.p1": "<strong>हज़रत मौलाना फ़ज़्ल अहमद ख़ान साहिब क़ुद्दुसुर्रुहू नक़्शबंदिया</strong>, जिन्हें श्रद्धापूर्वक <strong>हुज़ूर महाराज</strong> कहा जाता है, का जन्म 1838 में ग्राम रायपुर ख़ास, तहसील कायमगंज, ज़िला फ़तेहगढ़, उत्तर प्रदेश में हुआ। आपने 30 नवम्बर 1907 को पर्दा किया।",
-    "about.p2": "हुज़ूर महाराज नक़्शबंदी सिलसिले में हज़रत मिर्ज़ा जान-ए-जानाँ से छठवें स्थान पर थे। उनके पिता शेख़ ग़ुलाम हुसैन स्वयं कश्मीर के मौलाना वलीउद्दीन के शिष्य और नक़्शबंदी सिलसिले के मास्टर थे। उनकी माता भी नक़्शबंदी तसव्वुफ़ में दीक्षित थीं — वे ईश्वरीय स्मरण की सुगंध से सराबोर परिवार में जन्मे थे।",
-    "about.p3": "व्यवसाय से हुज़ूर महाराज एक मस्जिद से जुड़े मदरसा शिक्षक थे, जो गहन सादगी और तपस्या का जीवन जीते थे। वे भेंट स्वीकार नहीं करते थे और शिष्यों को अपने पैर छूने नहीं देते थे। इसके बजाय, वे स्वयं अपने हाथों से आने वालों की सेवा करते थे। धन होने के बावजूद वे जानबूझकर ऋण लेते थे, यह कहते हुए कि इस अभ्यास से अहंकार नहीं आता और दूसरों के प्रति कृतज्ञता बनी रहती है।",
+    "about.p2": "हुज़ूर महाराज ने अपने गुरु <strong>हज़रत अहमद अली ख़ान साहब</strong> से आध्यात्मिक दीक्षा प्राप्त की। उनके पिता शेख़ ग़ुलाम हुसैन स्वयं कश्मीर के मौलाना वलीउद्दीन के अधीन नक़्शबंदी सिलसिले के मास्टर थे, और उनकी माता भी नक़्शबंदी तसव्वुफ़ में दीक्षित थीं — वे ईश्वरीय स्मरण की सुगंध से सराबोर परिवार में जन्मे थे।",
+    "about.p3": "व्यवसाय से हुज़ूर महाराज एक मस्जिद से जुड़े मदरसा शिक्षक थे, जो गहन सादगी और तपस्या का जीवन जीते थे। वे भेंट स्वीकार नहीं करते थे और शिष्यों को अपने पैर छूने नहीं देते थे। इसके बजाय, वे स्वयं अपने हाथों से आने वालों की सेवा करते थे।",
     "about.p4": "उन्होंने सिखाया कि <em>\"धर्म अनेक हैं परन्तु उनका सार एक है — आध्यात्मिकता प्राप्त करना।\"</em> हुज़ूर महाराज के लिए यह कोई दार्शनिक विचार नहीं बल्कि जीवंत सत्य था। उन्हें धर्मों के बीच कोई भेद नहीं दिखता था क्योंकि वे उस स्रोत तक पहुँच चुके थे जहाँ से सभी धर्म निकलते हैं। वे ध्यान में विस्तृत समय बिताते थे और जहाँ कोई किसी धर्म की आलोचना करता, वहाँ से चुपचाप उठकर चले जाते थे।",
     "about.p5": "सभी पृष्ठभूमियों के साधक स्वाभाविक रूप से उनके पास आते थे, और वे उतनी ही स्वाभाविकता से नक़्शबंदिय्या आध्यात्मिक साधना उनसे साझा करते थे — किसी से केवल निष्ठा की अपेक्षा रखते हुए। उनके शिष्यों में <strong>महात्मा राम चन्द्र जी (श्री लालाजी महाराज)</strong> थे, जिनमें उन्होंने इस प्रवाह को आगे ले जाने की योग्यता पहचानी, और जिन्हें उन्होंने अपनी सम्पूर्ण आध्यात्मिक विरासत सौंपी।",
 
@@ -180,9 +181,9 @@ const translations = {
     // Footer
     "footer.title": "दरगाह हुज़ूर महाराज",
     "footer.subtitle": "हज़रत मौलाना फ़ज़्ल अहमद ख़ान साहेब रायपुरी",
-    "footer.quote": "\"निस्संदेह, ईश्वर के स्मरण से ही हृदयों को शांति मिलती है।\"",
-    "footer.cite": "— क़ुरआन, सूरह अर-रअद (13:28)",
-    "footer.bottom": "नक़्शबंदिय्या मुजद्दिदिय्या सिलसिले की पवित्र विरासत के संरक्षण में समर्पित"
+    "footer.quote": "\"धर्म अनेक हैं परन्तु उनका सार एक है — आध्यात्मिकता प्राप्त करना।\"",
+    "footer.cite": "— हुज़ूर महाराज",
+    "footer.bottom": "हुज़ूर महाराज की पवित्र आध्यात्मिक विरासत के संरक्षण में समर्पित"
   },
 
   ur: {
@@ -195,17 +196,17 @@ const translations = {
     "nav.visit": "زیارت",
 
     // Hero
-    "hero.title": "درگاہ حضور مہاراج",
+    "hero.title": "درگاہ<br>حضور مہاراج",
     "hero.subtitle": "حضرت مولانا فضل احمد خان صاحب",
-    "hero.desc": "نقشبندیہ مجددیہ سلسلے کے عظیم صوفی بزرگ (1838–1907)<br>پرم سنت مہاتما شری رام چندر جی مہاراج کے پیر و مرشد",
+    "hero.desc": "1838–1907<br><br>پوجیہ سدگرو<br>پرم سنت مہاتما شری رام چندر جی مہاراج (لالاجی مہاراج)<br>اور پرم سنت مہاتما شری رگھوبر دیال جی مہاراج (چاچاجی مہاراج) کے",
     "hero.cta": "ان کی وراثت جانیں",
 
     // About
     "about.label": "بزرگ",
     "about.title": "حضور مہاراج",
     "about.p1": "<strong>حضرت مولانا فضل احمد خان صاحب قدسرہ نقشبندیہ</strong>، جنہیں عقیدت سے <strong>حضور مہاراج</strong> کہا جاتا ہے، 1838 میں گاؤں رائے پور خاص، تحصیل کایمگنج، ضلع فتح گڑھ، اتر پردیش میں پیدا ہوئے۔ آپ 30 نومبر 1907 کو اس دنیا سے رخصت ہوئے۔",
-    "about.p2": "حضور مہاراج نقشبندی سلسلے میں حضرت مرزا جان جاناں سے چھٹے نمبر پر تھے۔ آپ کے والد شیخ غلام حسین خود مولانا ولی الدین کشمیری کے تحت نقشبندی سلسلے کے ماہر تھے۔ آپ کی والدہ بھی نقشبندی تصوف میں بیعت تھیں — آپ ایک ایسے خاندان میں پیدا ہوئے جو ذکر الٰہی کی خوشبو سے معطر تھا۔",
-    "about.p3": "پیشے سے حضور مہاراج ایک مسجد سے وابستہ مدرسہ کے استاد تھے، جو انتہائی سادگی اور زہد کی زندگی گزارتے تھے۔ وہ نذرانے قبول نہیں کرتے تھے اور مریدوں کو اپنے پاؤں چھونے نہیں دیتے تھے۔ اس کے بجائے، وہ اپنے ہاتھوں سے آنے والوں کی خدمت کرتے تھے۔ مال ہونے کے باوجود وہ جان بوجھ کر قرض لیتے تھے، یہ کہتے ہوئے کہ اس عمل سے تکبر نہیں آتا اور دوسروں کے لیے شکرگزاری پیدا ہوتی ہے۔",
+    "about.p2": "حضور مہاراج نے اپنے مرشد <strong>حضرت احمد علی خان صاحب</strong> سے روحانی بیعت حاصل کی۔ آپ کے والد شیخ غلام حسین خود مولانا ولی الدین کشمیری کے تحت نقشبندی سلسلے کے ماہر تھے، اور آپ کی والدہ بھی نقشبندی تصوف میں بیعت تھیں — آپ ایک ایسے خاندان میں پیدا ہوئے جو ذکر الٰہی کی خوشبو سے معطر تھا۔",
+    "about.p3": "پیشے سے حضور مہاراج ایک مسجد سے وابستہ مدرسہ کے استاد تھے، جو انتہائی سادگی اور زہد کی زندگی گزارتے تھے۔ وہ نذرانے قبول نہیں کرتے تھے اور مریدوں کو اپنے پاؤں چھونے نہیں دیتے تھے۔ اس کے بجائے، وہ اپنے ہاتھوں سے آنے والوں کی خدمت کرتے تھے۔",
     "about.p4": "آپ نے فرمایا کہ <em>\"مذاہب بہت ہیں لیکن ان کا جوہر ایک ہے — روحانیت حاصل کرنا۔\"</em> حضور مہاراج کے لیے یہ کوئی فلسفیانہ موقف نہیں بلکہ زندہ حقیقت تھی۔ انہیں مذاہب کے درمیان کوئی دیوار نظر نہیں آتی تھی کیونکہ وہ اس سرچشمے تک پہنچ چکے تھے جہاں سے تمام مذاہب نکلتے ہیں۔ وہ مراقبے میں کافی وقت گزارتے تھے اور جہاں کوئی کسی مذہب کی تنقید کرتا، وہاں سے خاموشی سے اٹھ کر چلے جاتے تھے۔",
     "about.p5": "ہر پس منظر کے سالکین فطری طور پر ان کے پاس آتے تھے، اور وہ اتنی ہی فطری طور پر نقشبندیہ روحانی اعمال ان سے شریک کرتے تھے — کسی سے صرف اخلاص کی توقع رکھتے ہوئے۔ ان کے مریدوں میں <strong>مہاتما رام چندر جی (شری لالاجی مہاراج)</strong> تھے، جن میں انہوں نے اس سلسلے کو آگے لے جانے کی صلاحیت پہچانی، اور جن کو انہوں نے اپنی مکمل روحانی وراثت سونپی۔",
 
@@ -273,8 +274,8 @@ const translations = {
     // Footer
     "footer.title": "درگاہ حضور مہاراج",
     "footer.subtitle": "حضرت مولانا فضل احمد خان صاحب رائے پوری",
-    "footer.quote": "\"بے شک اللہ کے ذکر سے ہی دلوں کو سکون ملتا ہے۔\"",
-    "footer.cite": "— قرآن، سورۃ الرعد (13:28)",
-    "footer.bottom": "نقشبندیہ مجددیہ سلسلے کی مقدس وراثت کے تحفظ کی خدمت میں"
+    "footer.quote": "\"مذاہب بہت ہیں لیکن ان کا جوہر ایک ہے — روحانیت حاصل کرنا۔\"",
+    "footer.cite": "— حضور مہاراج",
+    "footer.bottom": "حضور مہاراج کی مقدس روحانی وراثت کے تحفظ کی خدمت میں"
   }
 };

@@ -1,8 +1,8 @@
 /* ===== Variables & Reset ===== */
 :root {
-  --color-deep-green: #1a3a2a;
-  --color-green: #2d5a3f;
-  --color-sage: #4a7c5c;
+  --color-deep-green: #1a2a3a;
+  --color-green: #2d4a5f;
+  --color-sage: #4a6a7c;
   --color-gold: #c9a84c;
   --color-gold-light: #e8d48b;
   --color-gold-dark: #a07e2e;
@@ -69,7 +69,7 @@ ul { list-style: none; }
 }
 
 .nav.scrolled {
-  background: rgba(26, 58, 42, 0.97);
+  background: rgba(26, 42, 58, 0.97);
   box-shadow: 0 2px 20px rgba(0,0,0,0.15);
   backdrop-filter: blur(10px);
 }
@@ -192,8 +192,17 @@ ul { list-style: none; }
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(160deg, #0d1f15 0%, #1a3a2a 30%, #1e4432 60%, #152e20 100%);
+  background: linear-gradient(160deg, #0d1520 0%, #1a2a3a 30%, #1e3244 60%, #152030 100%);
   overflow: hidden;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: url('dargah-hero.png') center/cover no-repeat;
+  opacity: 0.15;
+  z-index: 0;
 }
 
 .hero-overlay {
@@ -222,31 +231,22 @@ ul { list-style: none; }
   max-width: 800px;
 }
 
-.bismillah {
-  font-family: var(--font-urdu);
-  font-size: 2rem;
-  color: var(--color-gold);
-  margin-bottom: 1rem;
-  opacity: 0.9;
-  direction: rtl;
-}
-
-.bismillah-hindi {
-  font-size: 1.05rem;
-  color: var(--color-gold-light);
-  margin-bottom: 0.4rem;
-  opacity: 0.6;
-  letter-spacing: 0.05em;
-}
-
-.bismillah-english {
+.hero-epigraph {
   font-family: var(--font-display);
-  font-size: 0.95rem;
+  font-size: 1.3rem;
   font-style: italic;
+  color: var(--color-gold);
+  margin-bottom: 0.3rem;
+  opacity: 0.85;
+  letter-spacing: 0.02em;
+}
+
+.hero-epigraph-cite {
+  font-size: 0.85rem;
   color: var(--color-gold-light);
   margin-bottom: 2rem;
-  opacity: 0.45;
-  letter-spacing: 0.03em;
+  opacity: 0.5;
+  letter-spacing: 0.05em;
 }
 
 .hero-title {
@@ -704,6 +704,44 @@ ul { list-style: none; }
   align-items: start;
 }
 
+.disciple-block {
+  margin-bottom: 4rem;
+  padding-bottom: 4rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.disciple-block:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.disciple-name {
+  font-family: var(--font-display);
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  font-weight: 600;
+  color: var(--color-deep-green);
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.masters-photo-section {
+  max-width: 550px;
+  margin: 0 auto 3rem;
+}
+
+.masters-photo-frame {
+  border: 3px solid var(--color-border);
+  padding: 0.5rem;
+  background: var(--color-cream);
+}
+
+.masters-photo {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 .featured-quote {
   position: relative;
   padding: 2rem 2.5rem;
@@ -863,7 +901,7 @@ ul { list-style: none; }
 
 /* ===== Footer ===== */
 .footer {
-  background: #0d1a12;
+  background: #0d1420;
   color: rgba(250,246,238,0.6);
   padding: 4rem 0 2rem;
 }
@@ -889,12 +927,12 @@ ul { list-style: none; }
 }
 
 .footer-arabic {
-  font-family: var(--font-urdu);
-  font-size: 1.2rem;
+  font-family: var(--font-display);
+  font-size: 1.1rem;
   color: var(--color-gold);
   opacity: 0.7;
-  direction: rtl;
   margin-top: 0.5rem;
+  letter-spacing: 0.1em;
 }
 
 .footer-verse blockquote p {
@@ -968,7 +1006,7 @@ ul { list-style: none; }
     top: 70px;
     left: 0;
     right: 0;
-    background: rgba(26, 58, 42, 0.98);
+    background: rgba(26, 42, 58, 0.98);
     flex-direction: column;
     padding: 1rem 2rem 2rem;
     gap: 0;
@@ -998,8 +1036,6 @@ ul { list-style: none; }
   .visit-grid {
     grid-template-columns: 1fr;
   }
-
-  .bismillah { font-size: 1.5rem; }
 
   .hero-content { padding: 1rem; }
 }
