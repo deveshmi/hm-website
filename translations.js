@@ -87,8 +87,8 @@ const translations = {
     // Footer
     "footer.title": "Dargah Huzoor Maharaj",
     "footer.subtitle": "Hazrat Maulana Fazl Ahmed Khan Saheb Raipuri",
-    "footer.quote": "\"Whoever travels a path in search of knowledge, Allah makes easy for him the path to Paradise.\"",
-    "footer.cite": "— Hadith (Sahih Muslim)",
+    "footer.quote": "\"Verily, in the remembrance of Allah do hearts find peace.\"",
+    "footer.cite": "— Quran, Surah Ar-Ra'd (13:28)",
     "footer.bottom": "In the service of preserving the sacred legacy of the Naqshbandiyya Mujaddidiyya Silsila"
   },
 
@@ -180,8 +180,8 @@ const translations = {
     // Footer
     "footer.title": "दरगाह हुज़ूर महाराज",
     "footer.subtitle": "हज़रत मौलाना फ़ज़्ल अहमद ख़ान साहेब रायपुरी",
-    "footer.quote": "\"जो ज्ञान की खोज में किसी मार्ग पर चलता है, अल्लाह उसके लिए जन्नत का मार्ग आसान कर देता है।\"",
-    "footer.cite": "— हदीस (सहीह मुस्लिम)",
+    "footer.quote": "\"निस्संदेह, ईश्वर के स्मरण से ही हृदयों को शांति मिलती है।\"",
+    "footer.cite": "— क़ुरआन, सूरह अर-रअद (13:28)",
     "footer.bottom": "नक़्शबंदिय्या मुजद्दिदिय्या सिलसिले की पवित्र विरासत के संरक्षण में समर्पित"
   },
 
@@ -273,8 +273,8 @@ const translations = {
     // Footer
     "footer.title": "درگاہ حضور مہاراج",
     "footer.subtitle": "حضرت مولانا فضل احمد خان صاحب رائے پوری",
-    "footer.quote": "\"جو علم کی تلاش میں کسی راہ پر چلتا ہے، اللہ اس کے لیے جنت کی راہ آسان کر دیتا ہے۔\"",
-    "footer.cite": "— حدیث (صحیح مسلم)",
+    "footer.quote": "\"بے شک اللہ کے ذکر سے ہی دلوں کو سکون ملتا ہے۔\"",
+    "footer.cite": "— قرآن، سورۃ الرعد (13:28)",
     "footer.bottom": "نقشبندیہ مجددیہ سلسلے کی مقدس وراثت کے تحفظ کی خدمت میں"
   }
 };
