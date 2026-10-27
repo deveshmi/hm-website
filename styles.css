@@ -228,7 +228,7 @@ ul { list-style: none; }
   z-index: 2;
   text-align: center;
   padding: 2rem;
-  max-width: 800px;
+  max-width: 1000px;
 }
 
 .hero-epigraph {
