@@ -1179,7 +1179,7 @@ ul { list-style: none; }
   border-top: 1px solid rgba(201,168,76,0.2);
 }
 
-.visit-card .visit-hi-text {
+.visit-card p.visit-hi-text {
   color: rgba(250,246,238,0.7);
   font-size: 1.2rem;
   line-height: 1.8;
