@@ -53,31 +53,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   fadeEls.forEach(el => observer.observe(el));
 
-  // Language switching
-  function setLanguage(lang) {
-    const dir = lang === 'ur' ? 'rtl' : 'ltr';
-    document.documentElement.setAttribute('lang', lang);
-    document.documentElement.setAttribute('dir', dir);
-
-    document.querySelectorAll('.lang-btn').forEach(btn => {
-      btn.classList.toggle('active', btn.dataset.lang === lang);
-    });
-
-    const t = translations[lang];
-    if (!t) return;
-
-    document.querySelectorAll('[data-i18n]').forEach(el => {
-      const key = el.dataset.i18n;
-      if (t[key]) el.innerHTML = t[key];
-    });
-
-    localStorage.setItem('dargah-lang', lang);
-  }
-
-  document.querySelectorAll('.lang-btn').forEach(btn => {
-    btn.addEventListener('click', () => setLanguage(btn.dataset.lang));
-  });
-
-  const saved = localStorage.getItem('dargah-lang');
-  if (saved && saved !== 'en') setLanguage(saved);
+  // Clear any previously saved language preference
+  localStorage.removeItem('dargah-lang');
 });
