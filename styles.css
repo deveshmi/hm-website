@@ -1169,9 +1169,9 @@ ul { list-style: none; }
 
 .visit-card p:last-child { margin-bottom: 0; }
 
-.visit-hi-heading {
+.visit-card .visit-hi-heading {
   font-family: var(--font-body);
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 500;
   color: var(--color-gold);
   margin-top: 1.25rem;
@@ -1179,9 +1179,9 @@ ul { list-style: none; }
   border-top: 1px solid rgba(201,168,76,0.2);
 }
 
-.visit-hi-text {
+.visit-card .visit-hi-text {
   color: rgba(250,246,238,0.7);
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   line-height: 1.8;
   margin-bottom: 0.5rem;
 }
