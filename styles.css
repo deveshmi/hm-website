@@ -702,6 +702,22 @@ ul { list-style: none; }
   color: var(--color-gold);
 }
 
+.lineage-focus {
+  background: radial-gradient(ellipse at center, rgba(201, 168, 76, 0.12) 0%, rgba(201, 168, 76, 0.04) 40%, transparent 70%);
+  border-radius: 12px;
+  padding: 1.5rem 1.5rem 1.5rem 0;
+  margin: 0.5rem 0;
+  box-shadow: 0 0 40px rgba(201, 168, 76, 0.15), 0 0 80px rgba(201, 168, 76, 0.08);
+}
+
+.lineage-focus .lineage-marker {
+  box-shadow: 0 0 25px rgba(201, 168, 76, 0.5), 0 0 50px rgba(201, 168, 76, 0.25);
+}
+
+.lineage-focus .lineage-content h3 {
+  font-size: 1.6rem;
+}
+
 .lineage-highlight .lineage-name-hi {
   opacity: 0.9;
 }
