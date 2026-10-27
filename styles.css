@@ -339,6 +339,80 @@ ul { list-style: none; }
   50% { transform: rotate(45deg) translateY(8px); opacity: 0.8; }
 }
 
+/* ===== Hero Intro Lines ===== */
+.hero-intro-lines {
+  margin-top: 2.5rem;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.hero-intro-divider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+}
+
+.hero-intro-divider::before,
+.hero-intro-divider::after {
+  content: '';
+  width: 1px;
+  height: 40px;
+  background: linear-gradient(180deg, transparent, var(--color-gold), transparent);
+}
+
+.hero-intro-divider .divider-star {
+  color: var(--color-gold);
+  font-size: 0.8rem;
+  line-height: 1;
+  padding: 0.3rem 0;
+}
+
+.hero-intro-col {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .hero-intro-lines {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  .hero-intro-divider {
+    flex-direction: row;
+  }
+  .hero-intro-divider::before,
+  .hero-intro-divider::after {
+    width: 40px;
+    height: 1px;
+  }
+}
+
+.hero-intro-hindi {
+  font-size: 1.2rem;
+  color: rgba(250, 246, 238, 0.85);
+  line-height: 1.8;
+  margin-bottom: 0.3rem;
+}
+
+.hero-intro-en {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-style: italic;
+  font-weight: 400;
+  color: var(--color-gold-light);
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.hero-intro-en:last-child {
+  margin-bottom: 0;
+}
+
 /* ===== Section Common ===== */
 .section {
   padding: 7rem 0;
@@ -522,6 +596,14 @@ ul { list-style: none; }
   font-weight: 400;
   font-style: italic;
   opacity: 0.7;
+}
+
+.shajra {
+  font-size: 0.85rem;
+  color: var(--color-gold);
+  opacity: 0.7;
+  font-style: normal;
+  margin-top: 0.3rem;
 }
 
 /* Collapsible lineage groups */
