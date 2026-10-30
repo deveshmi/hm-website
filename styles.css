@@ -1187,6 +1187,50 @@ ul { list-style: none; }
   margin-bottom: 0.5rem;
 }
 
+/* ===== WhatsApp Button ===== */
+.whatsapp-contact {
+  text-align: center;
+  margin-top: 2.5rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(201,168,76,0.2);
+}
+
+.whatsapp-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.9rem 2rem;
+  background: #25D366;
+  color: #fff;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all var(--transition);
+  text-decoration: none;
+}
+
+.whatsapp-btn:hover {
+  background: #1da851;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
+}
+
+.whatsapp-btn svg {
+  flex-shrink: 0;
+}
+
+.whatsapp-btn-hi {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+  color: rgba(250,246,238,0.5);
+  text-decoration: none;
+}
+
+.whatsapp-btn-hi:hover {
+  color: rgba(250,246,238,0.8);
+}
+
 /* ===== Footer ===== */
 .footer {
   background: #0d1420;
