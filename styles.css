@@ -228,6 +228,7 @@ ul { list-style: none; }
   z-index: 2;
   text-align: center;
   padding: 2rem;
+  padding-top: 5rem;
   max-width: 1000px;
 }
 
